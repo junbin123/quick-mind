@@ -1,0 +1,13 @@
+.header-bar-box{
+  box-shadow: 0 1px 0 0 #EFEFEF;
+  height: 50px;
+  width: 100%;
+}
+.header-left{
+  height: 100%;
+}
+.header-home-icon{
+  width: 76px;
+  height: 100%;
+  border-right: 1px solid #efefef;
+}
