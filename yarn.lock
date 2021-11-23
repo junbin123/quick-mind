@@ -1165,7 +1165,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.16.3"
   resolved "https://registry.npmmirror.com/@babel/runtime/download/@babel/runtime-7.16.3.tgz?cache=0&sync_timestamp=1636496440593&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.16.3.tgz#b86f0db02a04187a3c17caa77de69840165d42d5"
   integrity sha512-WBwekcqacdY2e9AF/Q7WLFUWmdJGJTkbjqTjoMDgXkVZ3ZRUvOPsLb5KdwISoQVsbP+DQzVZW4Zhci0DvpbNTQ==
@@ -1268,14 +1268,14 @@
     tslib "^2.1.0"
 
 "@fluentui/foundation-legacy@^8.1.16":
-  version "8.1.15"
-  resolved "https://registry.npmmirror.com/@fluentui/foundation-legacy/download/@fluentui/foundation-legacy-8.1.15.tgz#cc6452318797747c12ee6bc06eca5dda7d95efe9"
-  integrity sha1-zGRSMYeXdHwS7mvAbspd2n2V7+k=
+  version "8.1.16"
+  resolved "https://registry.npmmirror.com/@fluentui/foundation-legacy/download/@fluentui/foundation-legacy-8.1.16.tgz#a17fc79c53ba486c05ba351d14ed7bc768214e52"
+  integrity sha512-u4A/w2XAxdjSrSWRP52HLQvGMoj4GI96eYYyRBRRHMNfEUO3uU9WUFb//VgaiApzV+GDNUJS4o1cXIWewPDiXQ==
   dependencies:
-    "@fluentui/merge-styles" "^8.2.0"
+    "@fluentui/merge-styles" "^8.2.1"
     "@fluentui/set-version" "^8.1.4"
-    "@fluentui/style-utilities" "^8.4.1"
-    "@fluentui/utilities" "^8.3.5"
+    "@fluentui/style-utilities" "^8.4.2"
+    "@fluentui/utilities" "^8.3.6"
     tslib "^2.1.0"
 
 "@fluentui/keyboard-key@^0.3.4":
@@ -1285,7 +1285,7 @@
   dependencies:
     tslib "^2.1.0"
 
-"@fluentui/merge-styles@^8.2.0", "@fluentui/merge-styles@^8.2.1":
+"@fluentui/merge-styles@^8.2.1":
   version "8.2.1"
   resolved "https://registry.npmmirror.com/@fluentui/merge-styles/download/@fluentui/merge-styles-8.2.1.tgz#2deaa0cc10ece12d3e01f28e678fdc0ce3f861af"
   integrity sha512-PwFndIWHNpwNF3On1Y/Kn73ycXJrZNrIG7ZV/G+C6g+ebVP0I87Mgx3kt8I+/hZxQJ0vjrFVslXiNMOFOfLaSQ==
@@ -1306,13 +1306,13 @@
     tslib "^2.1.0"
 
 "@fluentui/react-hooks@^8.3.6":
-  version "8.3.5"
-  resolved "https://registry.npmmirror.com/@fluentui/react-hooks/download/@fluentui/react-hooks-8.3.5.tgz#193a8fc1c0228b99b684d4557eb2ea8a29b695ee"
-  integrity sha1-GTqPwcAii5m2hNRVfrLqiim2le4=
+  version "8.3.6"
+  resolved "https://registry.npmmirror.com/@fluentui/react-hooks/download/@fluentui/react-hooks-8.3.6.tgz#c16e9027446ce86880ebbc2e54a3f87cd9d3eda4"
+  integrity sha512-LVzm3fHZyx8d9IPdfEX7DV5/6jick/21oPqhlnXjxZqYWUUx5hbo6qefuMrft/hBRA/oPc2yiMvri5E7q08/Hg==
   dependencies:
     "@fluentui/react-window-provider" "^2.1.4"
     "@fluentui/set-version" "^8.1.4"
-    "@fluentui/utilities" "^8.3.5"
+    "@fluentui/utilities" "^8.3.6"
     tslib "^2.1.0"
 
 "@fluentui/react-window-provider@^2.1.4":
@@ -1349,7 +1349,7 @@
   dependencies:
     tslib "^2.1.0"
 
-"@fluentui/style-utilities@^8.4.1", "@fluentui/style-utilities@^8.4.2":
+"@fluentui/style-utilities@^8.4.2":
   version "8.4.2"
   resolved "https://registry.npmmirror.com/@fluentui/style-utilities/download/@fluentui/style-utilities-8.4.2.tgz#6f5e4f2785722927f32a340c88dd3c7b92fe3342"
   integrity sha512-RwZo+IzzgQzdzxh0Zv5uEaUZKlNpR80ct7Y/8SiSyYOP4Q7vVqIg8kCj8l/V4IOMTocjqH4sYbVxJ8pCJ4G9Vw==
@@ -1371,7 +1371,7 @@
     "@fluentui/utilities" "^8.3.6"
     tslib "^2.1.0"
 
-"@fluentui/utilities@^8.3.5", "@fluentui/utilities@^8.3.6":
+"@fluentui/utilities@^8.3.6":
   version "8.3.6"
   resolved "https://registry.npmmirror.com/@fluentui/utilities/download/@fluentui/utilities-8.3.6.tgz#1cf33ffa1943e1514781f35867c870c7248d6d9d"
   integrity sha512-ubB1/g3ppJ/MCbQHYwldpKP6EfE8ScwL8wMlnWFoSMo9E7FzlfoeOOPLzmT7fGptTnXzFDQtP4SR4Y/YQXVPGg==
@@ -1629,6 +1629,15 @@
     "@types/node" "*"
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
+
+"@loadable/component@^5.15.0":
+  version "5.15.0"
+  resolved "https://registry.nlark.com/@loadable/component/download/@loadable/component-5.15.0.tgz#48b9524237be553f48b158f8c9152593f3f3fded"
+  integrity sha1-SLlSQje+VT9IsVj4yRUlk/Pz/e0=
+  dependencies:
+    "@babel/runtime" "^7.7.7"
+    hoist-non-react-statics "^3.3.1"
+    react-is "^16.12.0"
 
 "@microsoft/load-themed-styles@^1.10.26":
   version "1.10.230"
@@ -2014,6 +2023,13 @@
   version "0.0.29"
   resolved "https://registry.nlark.com/@types/json5/download/@types/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
+
+"@types/loadable__component@^5.13.4":
+  version "5.13.4"
+  resolved "https://registry.nlark.com/@types/loadable__component/download/@types/loadable__component-5.13.4.tgz#a4646b2406b1283efac1a9d9485824a905b33d4a"
+  integrity sha1-pGRrJAaxKD76wanZSFgkqQWzPUo=
+  dependencies:
+    "@types/react" "*"
 
 "@types/minimatch@*":
   version "3.0.5"
@@ -5843,7 +5859,7 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
@@ -9482,7 +9498,7 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.npmmirror.com/react-error-overlay/download/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha1-PHQwEMk1lgjDdezWvHbzXZOZWwo=
 
-react-is@^16.7.0, react-is@^16.8.1:
+react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.npmmirror.com/react-is/download/react-is-16.13.1.tgz?cache=0&sync_timestamp=1636734413655&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
