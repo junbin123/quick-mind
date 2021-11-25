@@ -21,8 +21,20 @@ code {
 .justify-between{
   justify-content: space-between;
 }
+.justify-end{
+  justify-content: flex-end;
+}
+.justify-start{
+  justify-content: flex-start;
+}
 .align-center{
   align-items: center;
+}
+
+
+.padding-lr-5{
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
