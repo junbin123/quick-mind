@@ -16,26 +16,31 @@ export interface ToolBarProps {
   isHighlight: boolean
   isDone: boolean
   commentNum: number
-  test?: string
-  onUpdate?: (data: ToolBarProps) => void
+  onUpdate?: (data: any) => void
 }
 
-export const ToolBar: FC<ToolBarProps> = (props) => {
+export const ToolBar: FC<ToolBarProps> = ({
+  isBold,
+  isHighlight,
+  isDone,
+  commentNum,
+  onUpdate,
+}) => {
   const toolListInit = [
     {
       label: 'bold',
       Component: <BoldOutlined />,
-      className: props.isBold ? 'is-select' : '',
+      className: isBold ? 'is-select' : '',
     },
     {
       label: 'highlight',
       Component: <HighlightOutlined />,
-      className: props.isHighlight ? 'is-select' : '',
+      className: isHighlight ? 'is-select' : '',
     },
     {
       label: 'done',
       Component: <CheckCircleOutlined />,
-      className: props.isDone ? 'is-select' : '',
+      className: isDone ? 'is-select' : '',
     },
     {
       label: 'picture',
@@ -47,26 +52,27 @@ export const ToolBar: FC<ToolBarProps> = (props) => {
     },
   ]
   const [toolList, setToolList] = useState(toolListInit)
-  useEffect(() => {
-    console.log('useEffect', props)
-    // toolList
-    // setToolList(toolList)
-  }, [])
 
   function handleTool({ label }: ToolProps) {
-    console.log('handleTool', label)
     if (label === 'bold') {
-      props.onUpdate &&
-        props.onUpdate({ ...props, isBold: !props.isBold, test: 'hhh' })
+      const newIsBold = !isBold
+      toolList[0].className = newIsBold ? 'is-select' : ''
+      onUpdate && onUpdate({ isBold: newIsBold })
+      setToolList(toolList)
       return
     }
     if (label === 'highlight') {
-      props.onUpdate &&
-        props.onUpdate({ ...props, isHighlight: !props.isHighlight })
+      const newIsHighlight = !isHighlight
+      toolList[1].className = newIsHighlight ? 'is-select' : ''
+      onUpdate && onUpdate({ isHighlight: newIsHighlight })
+      setToolList(toolList)
       return
     }
     if (label === 'done') {
-      props.onUpdate && props.onUpdate({ ...props, isDone: !props.isDone })
+      const newIsDone = !isDone
+      toolList[2].className = newIsDone ? 'is-select' : ''
+      onUpdate && onUpdate({ isDone: newIsDone })
+      setToolList(toolList)
       return
     }
   }
@@ -85,8 +91,8 @@ export const ToolBar: FC<ToolBarProps> = (props) => {
             </div>
           )
         })}
-        {props.commentNum > 0 && (
-          <div className="msg-tag absolute flex-center">{props.commentNum}</div>
+        {commentNum > 0 && (
+          <div className="msg-tag absolute flex-center">{commentNum}</div>
         )}
         <div className="middle-line"></div>
         <div

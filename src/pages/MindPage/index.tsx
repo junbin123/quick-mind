@@ -1,25 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ToolBar, { ToolBarProps } from '../../components/ToolBar'
+import './style.css'
 
 function MindPage() {
-  const mindNodeInfo = {
+  const mindNodeInfoInit = {
     isBold: true,
     isHighlight: true,
     isDone: true,
     commentNum: 1,
   }
+  const [mindNodeInfo, setMindNodeInfo] = useState(mindNodeInfoInit)
 
-  let test = 'name'
-
-  function onUpdate(data: ToolBarProps): void {
+  function onUpdate(data: any): void {
     console.log('onUpdate', data)
-    // mindNodeInfo.isBold = data.isBold
-    test = 'junbin'
+    setMindNodeInfo({ ...mindNodeInfo, ...data })
   }
   return (
     <div>
       Mind
-      <ToolBar {...mindNodeInfo} onUpdate={onUpdate} test={test} />
+      <div className="toolbar-box">
+        <ToolBar {...mindNodeInfo} onUpdate={onUpdate} />
+      </div>
     </div>
   )
 }
